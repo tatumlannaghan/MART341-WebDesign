@@ -1,3 +1,6 @@
-random text
-totally random text
-this is me adding random text
+What is a directory, and what is its relationship to files?
+A directory is similar to a folder where it acts sort of like a tree structure for a file.
+How are VCS useful?
+VCS are useful because it allows for all changes made to a file to be documented and saved at each layer of change. If more than one person is working on a file and they want to try a different technique than someone else both can do so without altering each others work. 
+Do you have a favorite artistic medium? Why is it your favorite?
+I would say my favorite artistic medium is video since I am a media arts student with a focus in filmmaking. I love being able to control what specifically gets shown to the viewer and being able to tell a story through it.
