@@ -1,1 +1,6 @@
-this is some text
+What is the relationship between an IP address and the DNS?
+DNS will locate the IP address of the website you want to reach.
+What is a cookie?
+Cookies contain information such as your username and password and store them in your computer or device.
+What are the three essential parts of a URL?
+Three essential parts of a URL are the domain name, HTTP or HTTPS or protocals, and the path.
