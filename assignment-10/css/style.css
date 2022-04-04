@@ -1,0 +1,58 @@
+/*
+Color Palette
+Red: #F52634
+Blue: #0F88FC
+Teal: #0FFCDD
+Orange: #F57E18
+Pink: #F5A2EC
+*/
+
+body {
+  background-color: black;
+  font-family: "Optima";
+  text-align: center;
+}
+
+.image-two img {
+  border-radius: 50%;
+}
+
+/* id selector */
+
+#title {
+  font-size: 30px;
+  color: black;
+  margin: calc(50vh - 30px) auto 0 auto;
+  -webkit-text-stroke: 1px #0F88FC;
+  border: 5px solid #F52634;
+  box-shadow: 10px -10px 0 -3px black, 10px -10px #F57E18,
+        20px -20px 0 -3px black, 20px -20px #0F88FC,
+        30px -30px 0 -3px black, 30px -30px #0FFCDD,
+        40px -40px 0 -3px black, 40px -40px #F5A2EC;
+  padding: 15px;
+  display: inline-block;
+}
+
+/* class selector */
+
+.authors-note {
+  color: #F57E18;
+}
+.double-border {
+  width: 100px;
+  height: 100px;
+  border: 3px double #0FFCDD;
+  padding: 1px;
+  margin: auto;
+}
+
+
+/* element selector */
+
+h3 {
+  color: #0F88FC;
+  border: 1px
+}
+h4 {
+  color: #F5A2EC;
+}
