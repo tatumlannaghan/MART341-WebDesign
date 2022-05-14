@@ -1,11 +1,10 @@
 /*
 Color Palette
-slate grey white:#d8c4af
-tan: #95764b
-warm brown: #713b1a
-cool brown: #63401f
-dark brown: #44271b
-khaki: #938f5f
+Brown: #45291a
+burnt orange: #a43a1d
+red: #a42725
+orange: #d64b1c
+tan: #93753a
 off white: #efebc8
 */
 
@@ -14,52 +13,69 @@ off white: #efebc8
 /* body */
 
 body {
-  background-color: #95764b;
+  background-color: #a43a1d;
   font-family: "FrontPage";
   text-align: center;
+  margin: 10%;
 }
 
 #title {
   font-size: 30px;
-  color: #63401f;
+  color: #45291a;
   margin:auto;
   padding: 15px;
   display: inline-block;
   font-family: "FrontPage";
+  font-kerning: auto;
+  letter-spacing: normal;
 }
 
 #firstsection {
+  background-color: #a42725;
   font-size: 20;
-  color: #63401f;
+  color: #45291a;
   text-align: right;
   padding: 15px;
   font-family: "FrontPage";
-  top: 46%;
-  left: 31%;
+  line-height: normal;
+  font-kerning: auto;
+  letter-spacing: normal;
 }
 
 #secondsection {
+  background-color: #a42725;
   font-size: 20;
-  color: #63401f;
+  color: #45291a;
   text-align: left;
   padding: 15px;
   font-family: "FrontPage";
+  line-height: normal;
+  font-kerning: auto;
+  letter-spacing: normal;
 }
 
 #thirdsection {
+  background-color: #a42725;
   font-size: 20;
-  color: #63401f;
+  color: #45291a;
   text-align: right;
   padding: 15px;
   font-family: "FrontPage";
+  line-height: normal;
+  font-kerning: auto;
+  letter-spacing: normal;
 }
 
 #contentsection1 {
+  background-color: #a42725;
   font-size: 20;
-  color: #63401f;
+  color: #45291a;
   text-align: center;
   padding: 15px;
   font-family: "FrontPage";
+  line-height: normal;
+  font-kerning: auto;
+  letter-spacing: normal;
 }
 
 a{
@@ -67,6 +83,32 @@ a{
   color: #efebc8;
   -webkit-text-stroke: 0.25px #44271b;
 }
+
+a:hover{
+  color: #a42725;
+}
+
+#firstsection:hover{
+  color: #efebc8;
+  background-color: #45291a;
+}
+
+#secondsection:hover{
+    color: #efebc8;
+    background-color: #45291a;
+}
+
+#thirdsection:hover{
+  color: #efebc8;
+  background-color: #45291a;
+}
+
+#contentsection1:hover{
+  color: #efebc8;
+  background-color: #45291a;
+}
+
+
 
 
 /* menu style */
@@ -88,7 +130,7 @@ header {
   top: 50px;
   right: 20px;
   text-align: center;
-  background-color: #44271b;
+  background-color: #45291a;
   margin: 2em .2em;
   padding: 0.5em 2em;
   border-radius: .1em;
@@ -103,7 +145,7 @@ header {
 }
 
 .menu-item:hover {
-    background-color: #63401f;
+    background-color: #d64b1c;
 }
 
 /* dropdown */
@@ -118,7 +160,7 @@ header {
     margin: 0.5em 0 0 -1em;
     padding: 0.5em 0 0 -1em;
     color: #efebc8;
-    background-color: #63401f;
+    background-color: #d64b1c;
     z-index: 2;
 
 }
