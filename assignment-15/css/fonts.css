@@ -1,0 +1,6 @@
+/* This is the file, "fonts.css." */
+@font-face {
+    font-family: 'FrontPage';
+    src: url('../fonts/FrontPageNeue.ttf') format('truetype');
+    font-style: normal;
+ }
